@@ -1,0 +1,22 @@
+{
+  "name": "vidhaan-auth-backend",
+  "version": "1.0.0",
+  "description": "Login/Register backend for Vidhaan — Express + JWT + bcrypt, JSON file storage (zero external DB setup).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.6.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.2",
+    "morgan": "^1.10.0"
+  }
+}
